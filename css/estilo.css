@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 241, 234);
+}
+
+.contenair{
+  padding: 20px;
+}
+
+.card-totais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.itens{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+	 flex-wrap: wrap; 
+}
+
+.card-header{
+  background-color: rgb(40, 53, 110);
+  color: #fff;
+  
+}
+
+
+.totalCarrinho{
+  font-weight: bold;
+}
+
+.resumoPedido{
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
